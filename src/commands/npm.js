@@ -1,6 +1,6 @@
 const npm = {
     description: "Searches up the given query on npm",
-    usage: "npmfs <query>",
+    usage: "npm <query>",
     run: (commander, args) => {
         if(!Array.isArray(args)) return commander.updateLines("")
         const query = args.join(" ")

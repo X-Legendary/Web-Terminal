@@ -3,10 +3,10 @@
 
 ### Commands
 - PyDocs
-- npm
+- ~~npm~~ ✅ Done
 - PyPi
-- Stack Overflow
-- Google
+- ~~Stack Overflow~~ ✅ Done
+- ~~Google~~ ✅ Done
 
 ### Features
 - Settings

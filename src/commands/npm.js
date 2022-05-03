@@ -1,5 +1,5 @@
 const npm = {
-    description: "Searches up the given query on npm",
+    description: "Searches up the given package on npm",
     usage: "npm <query>",
     run: (commander, args) => {
         if(!Array.isArray(args)) return commander.updateLines("")

@@ -1,0 +1,12 @@
+const npm = {
+    description: "Searches up the given query on npm",
+    usage: "npmfs <query>",
+    run: (commander, args) => {
+        if(!Array.isArray(args)) return commander.updateLines("")
+        const query = args.join(" ")
+        commander.updateLines(`Searching ${query} on npm...`)
+        setTimeout(window.open(`https://npmjs.com/package/${encodeURIComponent(query)}`, "_self"), 250)
+    }
+}
+
+export default npmfs

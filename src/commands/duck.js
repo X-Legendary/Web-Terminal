@@ -5,7 +5,7 @@ const duck = {
         if(!Array.isArray(args)) return commander.updateLines("")
         const query = args.join(" ")
         commander.updateLines(`Searching ${query} on DuckDuckGo...`)
-        setTimeout(window.open(`https://duckduckgo.com/?q=${encodeURIComponent(query)}`, "_self"), 1000)
+        setTimeout(window.open(`https://duckduckgo.com/?q=${encodeURIComponent(query)}`, "_self"), 250)
     }
 }
 

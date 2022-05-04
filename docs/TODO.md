@@ -3,10 +3,10 @@
 
 ### Commands
 - PyDocs
-- ~~npm~~ ✅ Done
+- ~~npm~~ ✅ Done ([#1](https://github.com/X-Legendary/Web-Terminal/pull/1))
 - PyPi
-- ~~Stack Overflow~~ ✅ Done
-- ~~Google~~ ✅ Done
+- ~~Stack Overflow~~ ✅ Done ([#1](https://github.com/X-Legendary/Web-Terminal/pull/1))
+- ~~Google~~ ✅ Done ([#1](https://github.com/X-Legendary/Web-Terminal/pull/1))
 
 ### Features
 - Settings

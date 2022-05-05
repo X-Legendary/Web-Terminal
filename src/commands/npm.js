@@ -9,4 +9,4 @@ const npm = {
     }
 }
 
-export default npmfs
+export default npm

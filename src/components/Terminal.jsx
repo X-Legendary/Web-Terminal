@@ -4,7 +4,7 @@ import Input from "./Input"
 import commander from "../commander"
 
 function Terminal() {
-    let [lines, setLines] = useState(["Web Terminal (v0.1.0)", "Use `help` for a list of commands"])
+    let [lines, setLines] = useState(["Web Terminal (v0.2.1)", "Use `help` for a list of commands"])
     // eslint-disable-next-line
     useEffect(() => {
         commander.init([lines, setLines])

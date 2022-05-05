@@ -7,6 +7,8 @@ import google from "./google"
 import npm from "./npm"
 import npmfs from "./npmfs"
 import stack from "./stack"
+import pypi from "./pypi"
+import pydocs from "./pydocs"
 
 const commands = {
     echo,
@@ -17,6 +19,8 @@ const commands = {
     google,
     npm,
     npmfs,
-    stack
+    stack,
+    pypi,
+    pydocs
 }
 export default commands

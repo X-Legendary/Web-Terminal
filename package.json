@@ -1,6 +1,6 @@
 {
   "name": "web-terminal",
-  "version": "0.1.0",
+  "version": "0.2.1",
   "description": "Simple terminal for your browser's homepage",
   "main": "src/index.js",
   "scripts": {

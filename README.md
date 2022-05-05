@@ -6,7 +6,7 @@ Simple terminal for your browser's homepage.
 Why would you bother to use a project like this? Well, this project allow you to search many programming relating websites, while still keeping that terminal style in your browser.
 
 ## Usage
-You can check out the deployed version [here](https://x-legendary.github.io/Web-Terminal/). You can also set it as your browser's homepage or new tab, so you don't have to navigate to it every time
+You can check out the deployed version [here](https://x-legendary.github.io/Web-Terminal/). You can also set it as your browser's homepage or new tab, so you don't have to navigate to it every time.
 
 ## Disclaimer
 You can read the full disclaimer [here](https://github.com/X-Legendary/Web-Terminal/blob/main/docs/disclaimer.md).

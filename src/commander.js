@@ -2,14 +2,14 @@ import commands from "./commands"
 let lines, setLines
 
 function updateLines(ulines) {
-    if(typeof ulines === "string" || Array.isArray(ulines)) {
-        let updatedLines = lines.concat(ulines)
-        setLines(updatedLines)
-        window.scrollTo(0, document.body.scrollHeight)
-        lines = updatedLines
-    } else {
+    //if(typeof ulines === "string" || Array.isArray(ulines)) {
+    let updatedLines = lines.concat(ulines)
+    setLines(updatedLines)
+    window.scrollTo(0, document.body.scrollHeight)
+    lines = updatedLines
+    /*} else {
         throw Error(`Expected String or Array<String>, got ${typeof ulines}`)
-    }
+    }*/
 }
 
 const commander = {

@@ -12,9 +12,16 @@ function updateLines(ulines) {
     }*/
 }
 
+function resetLines() {
+    setLines([])
+    window.scrollTo(0, document.body.scrollHeight)
+    lines = []
+}
+
 const commander = {
     updateLines,
     commands,
+    resetLines,
     init: (stateVars) => {
         lines = stateVars[0]
         setLines = stateVars[1]

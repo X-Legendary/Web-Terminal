@@ -6,12 +6,13 @@ function App() {
 
     useEffect(() => {
         const input = document.getElementById("cmdinput")
-        document.onkeydown = e => {
+        input.focus()
+        /*document.onkeydown = e => {
             //console.log(e.code)
             if(e.code === "ControlLeft") {
                 input.focus()
             }
-        }
+        }*/
     })
 
     return (

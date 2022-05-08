@@ -2,9 +2,10 @@ import { useState, useEffect } from "react"
 import Line from "./Line"
 import Input from "./Input"
 import commander from "../commander"
+import packageJSON from "../../package.json"
 
 function Terminal() {
-    let [lines, setLines] = useState(["Web Terminal (v0.2.1)", "Use `help` for a list of commands"])
+    let [lines, setLines] = useState([`Web Terminal (v${packageJSON.version})`, "Use `help` for a list of commands"])
     // eslint-disable-next-line
     useEffect(() => {
         commander.init([lines, setLines])

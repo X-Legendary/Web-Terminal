@@ -8,6 +8,13 @@ body {
     margin: 0;
     padding-bottom: 3rem;
 }
+/* Link related */
+a { color: var(--green)}
+a:hover { color: var(--green); }
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; color: white }
+a:active { text-decoration: none; }
 #form {
     background: var(--bg);
     padding: 0.25rem;
